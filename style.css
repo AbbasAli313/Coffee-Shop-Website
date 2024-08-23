@@ -57,4 +57,29 @@ nav {
     padding: 5px;
   }
 }
-@media;
+@media (max-width: 450px) {
+  body {
+    background-image: url(./images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #logo {
+    margin-top: -15px;
+  }
+  #logo img {
+    height: 50px;
+    width: 30px;
+    padding-left: 10spx;
+  }
+  /* .ancor-tag a {
+    padding-right: 10px;
+    margin-top: -30px; */
+
+  .ancor-tag {
+    margin-top: -30px;
+  }
+  .ancor-tag a {
+    padding: -5px 5px;
+    font-size: 1.6vh;
+  }
+}
